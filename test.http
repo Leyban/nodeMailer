@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/mail
+Content-Type: application/json
+
+{
+    "name": "Den Den Mushi",
+    "email": "whatchamacallits@gmail.com",
+    "company": "victory",
+    "message": "Hola, Soy Dora"
+}
