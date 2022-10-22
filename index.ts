@@ -6,7 +6,7 @@ import cors from 'cors'
 const app = express();
 const PORT = process.env.PORT || 3001
 const corsOption: cors.CorsOptions = {
-    origin: ['https://leyban.github.io/', "https://studio.apollographql.com", 'http://localhost:3000'],
+    origin: ['https://leyban.github.io', "https://studio.apollographql.com", 'http://localhost:3000'],
     optionsSuccessStatus: 200 // for legacy browsers (IE11, smartTV) choke on 204
 }
 app.use(cors(corsOption));
